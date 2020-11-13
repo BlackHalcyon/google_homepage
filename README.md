@@ -7,3 +7,4 @@ The goal is to make the page look perfectly identical, including hover and click
 
 On this project I am borrowing heavily from other coders, my primary aim is to see how the code goes together to affect the page in the way it does.  
 
+See it here: https://htmlpreview.github.io/?https://github.com/BlackHalcyon/google_homepage/blob/main/index.html
