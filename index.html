@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style>
-
-   .b_container {
-       height: 100vh;
-       align-items: center;
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       position: relative;
-       bottom: 25vh;
-    }
-
-    #logo {
-
-    }
-
-    #sbar {
-
-    }
-
-    #sbutton {
-
-    }
-    #lucky_button {
-
-    }
-
-
-
-</style>
 
 
 <head>
-
+    <title>Google homepage mockup</title>
+    <meta  charset="utf-8">
+    <link rel="stylesheet" href="reset.css" media="all">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-
-<main>
    
 <body>
+    <div class="flex">
 
-<div class="b_container">  
-    <div id="logo">
+
+<header>
+    <nav class="top_nav">
+        <ul class=topleft_nav>
+            <li><a href="https://duckduckgo.com/">About</a></li>
+            <li><a href="https://yippy.com/">Store</a></li>
+        </ul>
+        <ul class="topright_nav">    
+            <li><a href="https://protonmail.com/">Gmail</a></li>
+            <li><a href="https://swisscows.com/">Images</a></li>
+            <li><a id="none" href="https://www.google.com/intl/en/about/products?tab=wh" title="apps" class="material-icons">apps</a id="none"></li>
+            <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ"></a>
+                <button class="signin">Sign In</button></li>
+        </ul>
+
+    </nav>
+</header>
+
+<div class="container">  
+    <main class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo">
-    </div>
-    <div id="sbar"> 
-        <form action="void">
-            <input type="text"> 
-        </form>
-    </div>
-    <div id="sbutton">   
-        <button type="submit">Google Search</button>
-    </div>
-    <div id="lucky_button"> 
-        <button type="submit">I'm Feeling Lucky</button>
-    </div>       
+    </main>
+    <form>
+        <input type="text" id="sbar"> 
+        <button type="button" class="mic"></button>
+        <button type="button" class="mag"></button>
+    </form>
+  
+    <ul class="container">
+        <li><button type="submit" class="sbutton">Google Search</button></li>
+        <li><button type="submit" class="sbutton">I'm Feeling Lucky</button></li>
+    </ul>       
 </div>
 
+<footer>
+    <ul class="bottomright_nav">
+        <li><a href="https://searx.me/">Privacy</a></li>
+        <li><a href="https://www.startpage.com/">Terms</a></li>
+        <li><a href="https://yandex.com/">Settings</a></li>
+    </ul>    
+    <ul class="bottomleft_nav">    
+        <li><a href="https://www.armoredview.com/">Advertising</a></li>
+        <li><a href="https://tutanota.com/">Business</a></li>
+        <li><a href="https://www.wolframalpha.com/">How Search Works</a></li>
+    </ul>
+</footer>
+
+    </div>
 </body>
 
-
-</main>
 
 
 
