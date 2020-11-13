@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25vh;
+ }
+
+#logo {
+
+ }
+
+#sbar {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+     
+
+ }
+
+#sbutton {
+
+ }
+#lucky_button {
+
+ }
+
+.top_nav {
+
+}
+.bottom_nav {
+
+
+}
